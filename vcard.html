@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Visiting Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #f3f4f6, #e0e5ec);
+        }
+
+        .visiting-card {
+            width: 350px;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .visiting-card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-header {
+            background: #4CAF50;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .card-header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .info-icon {
+            width: 30px;
+            height: 30px;
+            background: #e0e5ec;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            font-size: 16px;
+            color: #4CAF50;
+        }
+
+        .info-text {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: #e0e5ec;
+            margin: 0 10px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4CAF50;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #4CAF50;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="visiting-card">
+        <div class="card-header">
+            <h2>John Doe</h2>
+            <p>Professional Electrical Dealer</p>
+        </div>
+        <div class="card-body">
+            <div class="info-row">
+                <div class="info-icon">☎</div>
+                <div class="info-text">+1 234 567 890</div>
+            </div>
+            <div class="info-row">
+                <div class="info-icon">✉</div>
+                <div class="info-text">john.doe@example.com</div>
+            </div>
+            <div class="info-row">
+                <div class="info-icon">🏢</div>
+                <div class="info-text">123 Main Street, City, Country</div>
+            </div>
+            <div class="info-row">
+                <div class="info-icon">🏢</div>
+                <div class="info-text">www.newweb.com</div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
